@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Load dataset
 data_path = "data.csv"  # Ensure this is the correct path to your uploaded file
-df = pd.read_csv(data.csv)
+df = pd.read_csv("C:\Users\sowmy\Downloads\ML project\data.csv")
 
 # Preprocess dataset (assuming target column is 'diagnosis')
 X = df.drop(columns=['diagnosis'])  # Features
